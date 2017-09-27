@@ -8,7 +8,7 @@ Café Nexus - Gruppe STFU :+1:
 - [ ] Lav Datamodeller -- [Link](INDSÆT LINK HER) 
 - [ ] Lav sekvens diagrammer -- [Link](INDSÆT LINK HER) 
 - [ ] Lav klasse diagram -- [Link](INDSÆT LINK HER) 
-- [x] Opret GitHub repo, samt team -- [Team] (https://github.com/orgs/Distribuerede-Systemer-2017/teams/gruppe-stfu/members) 
+- [x] Opret GitHub repo, samt team -- [Team](https://github.com/orgs/Distribuerede-Systemer-2017/teams/gruppe-stfu/members) 
 
 ## Kravspecifikation:
 
