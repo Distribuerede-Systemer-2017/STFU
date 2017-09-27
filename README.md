@@ -3,6 +3,13 @@ Café Nexus - Gruppe STFU :+1:
 
 [Her](https://docs.google.com/document/d/1_j1ZEVx0nU_N87oObxM9vNFDwwM2IIOCrq8Y3ME7hMY/edit?usp=sharing) er vores google docs med mere information.
 
+ To-do list:
+- [x] Færdiggør Kravspec
+- [ ] Lav Datamodeller
+- [ ] Lav sekvens diagrammer
+- [ ] Lav klasse diagram
+- [x] Opret GitHub repo, samt team
+
 ## Kravspecifikation:
 
 ### Server:
@@ -27,10 +34,3 @@ Café Nexus - Gruppe STFU :+1:
 - K3: Klienten skal kunne opdatere brugeroplysninger for den bruger, som er logget ind. 
 - K4: Klienten skal kunne hente aktuelle eller nært-foreliggende arrangementer
 - K5: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
-
-To-do list:
-- [x] Færdiggør Kravspec
-- [ ] Lav Datamodeller
-- [ ] Lav sekvens diagrammer
-- [ ] Lav klasse diagram
-- [x] Opret GitHub repo, samt team
