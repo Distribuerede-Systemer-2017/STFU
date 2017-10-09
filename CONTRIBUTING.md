@@ -10,11 +10,12 @@ Hej og velkommen til vores projekt! Vi er glade for du har besluttet at programm
 1. [Lav et *fork* af dette repo](https://help.github.com/articles/fork-a-repo/); Dette er din egen offentlige kopi på GitHub for dig at arbejde i før du deler det. 
 2. [Hent Git.](https://git-scm.com/) Du kan også overveje at hente [GitHub Desktop](https://desktop.github.com/) klienten for at have et grafisk interface at arbejde med.
 3. Brug git clone til at hente din *fork* ned. 
+4. Du har nu en lokal kopi af dit fork i den lokation du valgte da du clonet repo'et. 
 
 
 # Redigering
 
-Lav en `git checkout -b my-new-feature`. Begynd hellere med noget småt end et kæmpe projekt, og se hvordan det fungerer. 
+Lav en `git checkout -b my-new-feature` for at oprette en branch, som du nu kan arbejde i uden at ændre i din egen master branch. Dette betyder at du kan arbejde i forskellige dele, uden at de har konflikter med hinanden. Begynd hellere med noget småt end et kæmpe projekt, og se hvordan alting fungerer. 
 
 # Dele ændringerne
 
@@ -23,6 +24,8 @@ Når du er færdige med dine ændringer, er du klar til at [committe dine ændri
 <p align="center">
    <img src="https://media.giphy.com/media/111ebonMs90YLu/giphy.gif">
 </p>
+
+HUSK at skrive ordentlige commit meddelelser og pull requests, så det er nemmere for alle at følge med i hvad der er sket, omskrevet og hvorfor. Gør det nu nemt for os alle sammen :pray: 
 
 <table align="center">
   <tr>
