@@ -23,6 +23,8 @@ Når du er færdige med dine ændringer, er du klar til at [committe dine ændri
 
 
 [Her](https://github.com/Distribuerede-Systemer-2017/STFU/pull/21) er et eksempel på et pull request, jeg lavet lynhurtigt - ellers se et meget uddybende eksempel med mange kommentarer [her](https://github.com/WoWAnalyzer/WoWAnalyzer/pull/468)
+
+
 **ALDRIG MERGE UDEN MINDST ÉN HAR GENNEMGÅET KODEN OG SAGT GOD FOR DET, OG HUSK AT LØSE MERGE KONFLIKTE MED OMHU** 
 
 <p align="center">
