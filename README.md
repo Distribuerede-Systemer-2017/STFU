@@ -40,8 +40,10 @@ Café Nexus - Gruppe STFU :+1:
 - K9: Klienten skal give admins mulighed for at give brugere administrator rettigheder. 
 - K9: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
 
+
+##### Gammelt:
  To-do list:
 - [x] Færdiggør Kravspec
 - [x] Opret GitHub repo, samt team -- [Team](https://github.com/orgs/Distribuerede-Systemer-2017/teams/gruppe-stfu/members) 
 - [x] Opret CONTRIBUTING file -- [Guide](https://github.com/blog/1184-contributing-guidelines) -- [Link](https://github.com/Distribuerede-Systemer-2017/STFU/edit/master/CONTRIBUTING.md)
-Alt fremtidig to-do går igennem 
+
