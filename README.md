@@ -38,7 +38,7 @@ Café Nexus - Gruppe STFU :+1:
 - K7: Klienten skal give admins mulighed for at slette events.
 - K8: Klienten skal give admins mulighed for at slette en bruger. 
 - K9: Klienten skal give admins mulighed for at give brugere administrator rettigheder. 
-- K9: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
+- K10: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
 
 
 ##### Gammelt:
