@@ -15,12 +15,9 @@ Café Nexus - Gruppe STFU :+1:
 
 ### Server:
 - S1: Server skal kunne validere login på et hashet password.
-- S2: Serveren skal kunne oprette, slette og opdatere en bruger.
-- S3: Serveren skal udstille et API (Softwaregrænseflade), som gør det nemt at udarbejde klienter, der kan trække på serverens funktionalitet. API’et skal dække over følgende funktionaliteter:
+- S2: Serveren skal udstille et API (Softwaregrænseflade), som gør det nemt at udarbejde klienter, der kan trække på serverens funktionalitet. API’et skal dække over følgende funktionaliteter:
    - En gæst skal kunne oprette oprette sig som bruger.
    - En bruger skal kunne logge ind/ud.
-   - En bruger skal kunne slette sin egen konto.
-   - En bruger skal kunne opdatere egne brugeroplysninger.
    - En bruger skal kunne oprette events.
    - En bruger skal kunne opdatere egne events, og deres beskrivelser. 
    - En bruger skal kunne slette egne events. 
@@ -39,5 +36,5 @@ Café Nexus - Gruppe STFU :+1:
 - K1: Klienten skal udstille et login-vindue for brugeren, samt give brugeren mulighed for at logge ud igen. 
 - K2: Klienten skal kunne oprette/slette en bruger
 - K3: Klienten skal kunne opdatere brugeroplysninger for den bruger, som er logget ind. 
-- K4: Klienten skal kunne hente aktuelle eller nært-foreliggende arrangementer
+- K4: Klienten skal kunne hente arrangementer i rækkefølge.
 - K5: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
