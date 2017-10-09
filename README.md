@@ -1,15 +1,12 @@
 # STFU
 Café Nexus - Gruppe STFU :+1: 
 
-[Her](https://docs.google.com/document/d/1_j1ZEVx0nU_N87oObxM9vNFDwwM2IIOCrq8Y3ME7hMY/edit?usp=sharing) er vores google docs med mere information.
+[Her](https://docs.google.com/document/d/1_j1ZEVx0nU_N87oObxM9vNFDwwM2IIOCrq8Y3ME7hMY/edit?usp=sharing) er vores google docs med mere information, bl.a. usecase mv
 
  To-do list:
 - [x] Færdiggør Kravspec
-- [ ] Lav Datamodeller -- [Link](INDSÆT LINK HER) 
-- [ ] Lav sekvens diagrammer -- [Link](INDSÆT LINK HER) 
-- [ ] Lav klasse diagram -- [Link](INDSÆT LINK HER) 
 - [x] Opret GitHub repo, samt team -- [Team](https://github.com/orgs/Distribuerede-Systemer-2017/teams/gruppe-stfu/members) 
-- [ ] Opret CONTRIBUTING file -- [Guide](https://github.com/blog/1184-contributing-guidelines) + [Eksempel1](https://github.com/WoWAnalyzer/WoWAnalyzer/blob/master/CONTRIBUTING.md)
+- [ ] Opret CONTRIBUTING file -- [Guide](https://github.com/blog/1184-contributing-guidelines)
 
 - [Syntax-guide](https://help.github.com/articles/basic-writing-and-formatting-syntax)
 
