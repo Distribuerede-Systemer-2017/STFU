@@ -33,8 +33,13 @@ Café Nexus - Gruppe STFU :+1:
 - S6: Serveren skal udstille et interface, som gør det muligt at ændre et nyt event.
 
 ### Klient:
-- K1: Klienten skal udstille et login-vindue for brugeren, samt give brugeren mulighed for at logge ud igen. 
-- K2: Klienten skal kunne oprette/slette en bruger
-- K3: Klienten skal kunne opdatere brugeroplysninger for den bruger, som er logget ind. 
-- K4: Klienten skal kunne hente arrangementer i rækkefølge.
-- K5: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
+- K1: Klienten skal kunne oprette en bruger.
+- K2: Klienten skal udstille et login for brugeren, samt give brugeren mulighed for at logge ud igen. 
+- K3: Klienten skal kunne oprette events for den bruger, som er logget ind. 
+- K4: Klienten skal kunne opdatere events for den bruger, som er logget ind. 
+- K5: Klienten skal kunne hente en oversigt over alle events.
+- K6: Klienten skal kunne hente en oversigt over alle brugere til visning for admins.
+- K7: Klienten skal give admins mulighed for at slette events.
+- K8: Klienten skal give admins mulighed for at slette en bruger. 
+- K9: Klienten skal give admins mulighed for at give brugere administrator rettigheder. 
+- K9: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
