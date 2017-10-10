@@ -14,6 +14,8 @@ Hej og velkommen til vores projekt! Vi er glade for du har besluttet at programm
 
 ## Opsætning og hent fra upstream
 
+OBS: Hvis du allerede har opsat upstream, så kan du springe direkte til step 5. 
+
 1. I din terminal så navigér til den lokation du har clonet og skriv `git remote -v`.
 2. I skulle gerne blive mødt af noget lignende det her: <img src="https://i.imgur.com/fwVey9d.png">
 3. Skriv nu `git remote add upstream https://github.com/Distribuerede-Systemer-2017/STFU.git`.
