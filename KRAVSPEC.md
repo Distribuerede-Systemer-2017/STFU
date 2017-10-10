@@ -8,7 +8,6 @@
    - En bruger skal kunne oprette events.
    - En bruger skal kunne opdatere egne events, og deres beskrivelser. 
    - En bruger skal kunne slette egne events. 
-   - En admin skal kunne opdatere events og deres beskrivelser.
    - En bruger skal kunne se en oversigt over alle events.
    - En bruger skal kunne se en deltagerliste på det valgte event.
    - En admin skal kunne se en oversigt over alle brugere. 
