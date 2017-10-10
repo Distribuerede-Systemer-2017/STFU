@@ -23,7 +23,6 @@ Café Nexus - Gruppe STFU :+1:
    - En admin skal kunne se en oversigt over alle brugere. 
    - En admin skal kunne slette et valgfrit event.
    - En admin skal kunne slette en valgfri bruger. 
-   - En admin skal kunne omdanne en valgfri bruger til admin. (OBS: En admin er bare en bruger med ekstra/forhøjet rettigheder)
 - S4: Serveren skal udstille et interface, som lister alle events i systemet. 
 - S5: Serveren skal udstille et interface, som gør det muligt at oprette et nyt event.
 - S6: Serveren skal udstille et interface, som gør det muligt at ændre et nyt event.
@@ -37,8 +36,7 @@ Café Nexus - Gruppe STFU :+1:
 - K6: Klienten skal kunne hente en oversigt over alle brugere til visning for admins.
 - K7: Klienten skal give admins mulighed for at slette events.
 - K8: Klienten skal give admins mulighed for at slette en bruger. 
-- K9: Klienten skal give admins mulighed for at give brugere administrator rettigheder. 
-- K10: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
+- K9: Klienten skal ud fra brugertype kunne vise forskellige menuer for admin og bruger. 
 
 
 ##### Gammelt:
