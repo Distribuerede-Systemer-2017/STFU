@@ -21,7 +21,7 @@ Hej og velkommen til vores projekt! Vi er glade for du har besluttet at programm
 5. Hvis i nu skriver `git checkout master` og derefter skriver `git fetch upstream` for at hente de nyeste ændringer ned ned. 
 6. Derefter skriver i `git merge upstream/master` for at slå dem sammen. 
 7. Løs eventuelle merge konflikter.
-8. Jeres fork burde nu være opdateret med de nyeste ændringer fra hovedprojektet. 
+8. Skriv `git push origin` for at pushe de nyeste ændringer til jeres fork, og de bør derfor nu være synkroniseret med hovedprojektet. 
 
 Tjek eventuelt [her for configuration af remote](https://help.github.com/articles/configuring-a-remote-for-a-fork/) eller [synkronisering af forks](https://help.github.com/articles/syncing-a-fork/) for mere information, hvis dette ikke var fyldestgørende. 
 
