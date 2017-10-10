@@ -18,9 +18,10 @@ Hej og velkommen til vores projekt! Vi er glade for du har besluttet at programm
 2. I skulle gerne blive mødt af noget lignende det her: <img src="https://i.imgur.com/fwVey9d.png">
 3. Skriv nu `git remote add upstream https://github.com/Distribuerede-Systemer-2017/STFU.git`.
 4. Tjek at hvis i skriver `git remote -v` så får i noget lignende frem: <img src="https://i.imgur.com/N2HMsvw.png">
-5. Hvis i nu skriver `git checkout master` og derefter skriver `git merge upstream/master`. 
-6. Løs eventuelle merge konflikter.
-7. Jeres fork burde nu være opdateret med de nyeste ændringer fra hovedprojektet. 
+5. Hvis i nu skriver `git checkout master` og derefter skriver `git fetch upstream` for at hente de nyeste ændringer ned ned. 
+6. Derefter skriver i `git merge upstream/master` for at slå dem sammen. 
+7. Løs eventuelle merge konflikter.
+8. Jeres fork burde nu være opdateret med de nyeste ændringer fra hovedprojektet. 
 
 Tjek eventuelt [her for configuration af remote](https://help.github.com/articles/configuring-a-remote-for-a-fork/) eller [synkronisering af forks](https://help.github.com/articles/syncing-a-fork/) for mere information, hvis dette ikke var fyldestgørende. 
 
