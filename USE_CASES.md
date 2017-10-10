@@ -4,7 +4,7 @@
 ## Use case diagram
 |             | Use case:     | Bruger | Admin only | Gæst | 
 |-------------|---------------|--------|------------|------|
-| Use case 1: | Opret bruger: |   x    |     x      |   x  |
+| Use case 1: | Opret bruger: |       |           |   x  |
 | Use case 2: | Login: |   x    |           |     |
 | Use case 3: | Slet en specifik bruger: |       |     x      |     |
 | Use case 4: | Oprette events: |   x    |           |     |
