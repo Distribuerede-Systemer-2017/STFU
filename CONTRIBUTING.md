@@ -12,7 +12,7 @@ Hej og velkommen til vores projekt! Vi er glade for du har besluttet at programm
 3. Brug git clone til at hente din *fork* ned. 
 4. Du har nu en lokal kopi af dit fork i den lokation du valgte da du clonet repo'et. 
 
-## Opret upstream
+## Opret og hent fra upstream
 
 1. I din terminal så navigér til den lokation du har clonet og skriv `git remote -v`.
 2. I skulle gerne blive mødt af noget lignende det her: <img src="https://i.imgur.com/fwVey9d.png">
