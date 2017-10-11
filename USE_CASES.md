@@ -29,11 +29,9 @@
 	- **Beskrivelse:** Brugeren skal kunne logge ind efter at have oprettet sig i systemet.
 	- **Forudsætninger:** For at kunne logge ind skal man være oprettet som bruger. Derudover skal indtastede username (e-mail) og password stemme overens.
 	- **Uddybende beskrivelse:**
-		1. Systemet viser startsiden, hvor bruger kan indtaste brugernavn og password
-		2. Hvis brugernavn og password matcher en eksisterende konto, er det muligt at logge ind som administrator eller alm. bruger
-		3. Hvis der er tale om en administrator, vil et administratorView forekomme. 
-		4. Hvis der er tale om en almindelig bruger, vil systemet frembring et brugerView
-	- **Supplerende oplysninger:** Unikt brugernavn (e-mail).
+		1. Systemet viser startsiden, hvor en bruger kan indtaste brugernavn og password.
+		2. Hvis brugernavn og password matcher en eksisterende konto, er det muligt at logge ind.
+	- **Supplerende oplysninger:** Brugernavnet (e-mail) skal være unikt.
 
 - **Use case 3 - Oprette events:**
 	- **Beskrivelse:** Brugeren skal kunne oprette egne events.
@@ -41,10 +39,10 @@
 	- **Uddybende beskrivelse:**
 		1. En bruger skal kunne oprette et event med navn, dato, billede, pris og beskrivelse.
 	- **Supplerende oplysninger:**
-		1. Når eventet er/er ikke oprettet skal ejeren få en be-/afkræftigelsesbesked på skærmen.
+		1. Når eventet er oprettet el. aflyst skal ejeren få en be-/afkræftigelsesbesked på skærmen.
 		2. Andre brugere skal kunne tilmelde sig et arrangement.
 		3. Det skal være muligt at vælge at have et maksimum på antal tilmeldte.
-		4. Prisen skal kun være oplysende, og skal kunne betales via eksempelvis mobilepay. 
+		4. Prisen skal kun være oplyst, og skal kunne betales via eksempelvis mobilepay. 
 
 - **Use case 4 - Opdatere egne events:**
 	- **Beskrivelse:** Brugeren skal kunne opdatere sine egne events 
@@ -70,12 +68,12 @@
 	- **Beskrivelse:** Brugeren skal kunne få en liste vist over alle deltagende på et valgt event. 
 	- **Forudsætninger:** Man skal være logget ind.
 	- **Uddybende beskrivelse:**
-		1. En bruger logger ind (med eller uden administratorrettigheder)
-		2. Brugeren får et view af alle events (som feed?)
-		3. Brugeren kan trykke på knappen “Hvis deltagere” for et af de events som feeden viser.
-		4. Brugeren får vist en liste, over alle deltagere på eventet.	
+		1. En bruger logger ind.
+		2. Brugeren får vist feed med tilgængelige events.
+		3. Brugeren kan trykke på knappen “Vis deltagere” for et af de events som feeden viser.
+		4. Brugeren får vist en liste over alle deltagere på eventet.	
 	- **Supplerende oplysninger:**
-		1. Kræver et login som bruger / admin.
+		-
 	
 - **Use case 7 - Slette egne events:**
 	- **Forudsætninger:** Aktøren skal være logget ind
@@ -97,3 +95,4 @@
 		2. Man får et vindue der fortæller at man er blevet logget ud
 		3. Herefter vises log-in skærmen igen
 	- **Supplerende oplysninger:**
+	-
