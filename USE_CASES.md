@@ -19,7 +19,7 @@
 	- **Beskrivelse:** Gæsten kan oprette en ny bruger med følgende oplysninger: fornavn, efternavn, e-mail, kodeord, køn og alder. 
 	- **Forudsætninger:** 
 	- **Uddybende beskrivelse:**
-		1. Applikationen starter op, og gæsten får vist en brugerflade, hvor der er mulighed for at logge ind, oprette en ny bruger eller se events.
+		1. Applikationen starter op, og gæsten får vist en brugerflade, hvor der er mulighed for at logge ind eller oprette en ny bruger.
 		2. Gæsten vælger at oprette en ny bruger og bliver ført videre til en ny brugerflade.
 		3. Gæsten indtaster de påkrævede informationer og bliver herefter oprettet i systemet.
 		4. Gæsten bliver ført tilbage til startsiden, og har nu mulighed for at logge ind. (Skal brugeren verificeres?) 
