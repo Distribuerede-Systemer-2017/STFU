@@ -10,7 +10,7 @@ Hej og velkommen til vores projekt! Vi er glade for du har besluttet at programm
 1. [Lav et *fork* af dette repo](https://help.github.com/articles/fork-a-repo/); Dette er din egen offentlige kopi på GitHub for dig at arbejde i før du deler det. 
 2. [Hent Git.](https://git-scm.com/) Du kan også overveje at hente [GitHub Desktop](https://desktop.github.com/) klienten for at have et grafisk interface at arbejde med.
 3. Brug git clone til at hente din *fork* ned. 
-4. Du har nu en lokal kopi af dit fork i den lokation du valgte da du clonet repo'et. 
+4. Du har nu en lokal kopi af dit fork i den lokation/mappe du valgte da du clonet repo'et. 
 
 ## Opsætning og hent fra upstream
 
