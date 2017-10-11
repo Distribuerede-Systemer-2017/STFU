@@ -95,7 +95,3 @@
 		2. Man får et vindue der fortæller at man er blevet logget ud
 		3. Herefter vises log-in skærmen igen
 	- **Supplerende oplysninger:**
-	-
-
-
-Færdig
