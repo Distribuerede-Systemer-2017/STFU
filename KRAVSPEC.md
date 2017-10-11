@@ -3,7 +3,7 @@
 ### Server:
 - S1: Server skal kunne validere login på et hashet password.
 - S2: Serveren skal udstille et API (Softwaregrænseflade), som gør det nemt at udarbejde klienter, der kan trække på serverens funktionalitet. API’et skal dække over følgende funktionaliteter:
-   - En gæst skal kunne oprette oprette sig som bruger.
+   - En gæst skal kunne oprette sig som bruger.
    - En bruger skal kunne logge ind/ud.
    - En bruger skal kunne oprette events.
    - En bruger skal kunne opdatere egne events, og deres beskrivelser. 
