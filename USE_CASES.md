@@ -33,7 +33,7 @@
 		2. Hvis brugernavn og password matcher en eksisterende konto, er det muligt at logge ind som administrator eller alm. bruger
 		3. Hvis der er tale om en administrator, vil et administratorView forekomme. 
 		4. Hvis der er tale om en almindelig bruger, vil systemet frembring et brugerView
-	- **Supplerende oplysninger:** Unikt brugernavn og password
+	- **Supplerende oplysninger:** Unikt brugernavn (e-mail).
 
 - **Use case 3 - Oprette events:**
 	- **Beskrivelse:** Brugeren skal kunne oprette egne events.
