@@ -27,7 +27,7 @@
 
 - **Use case 2 - Login:**
 	- **Beskrivelse:** Brugeren skal kunne logge ind efter at have oprettet sig i systemet.
-	- **Forudsætninger:** For at kunne logge ind skal man være oprettet som bruger. Derudover skal indtastede username og password stemme overens.
+	- **Forudsætninger:** For at kunne logge ind skal man være oprettet som bruger. Derudover skal indtastede username (e-mail) og password stemme overens.
 	- **Uddybende beskrivelse:**
 		1. Systemet viser startsiden, hvor bruger kan indtaste brugernavn og password
 		2. Hvis brugernavn og password matcher en eksisterende konto, er det muligt at logge ind som administrator eller alm. bruger
