@@ -90,7 +90,7 @@
 	- **Supplerende oplysninger:**
 		1. For at slette et event, skal det være oprettet forinden. 
 
-- **Use Case 8 - Log ud**
+- **Use Case 8 - Log ud:**
 	- **Beskrivelse:** Brugeren skal kunne logge ud af systemet igen.
 	- **Forudsætninger:** Man skal være logget ind. 
 	- **Uddybende beskrivelse:**
