@@ -23,3 +23,4 @@
 - K6: Klienten skal kunne hente en deltagerliste på alle events. 
 - K7: Klienten skal kunne tilmelde sig et event. 
 - K8: Klienten skal kunne hente en oversigt over alle events, som brugeren deltager i. 
+- K9: Klienten skal kunne slette en brugers egne events.
