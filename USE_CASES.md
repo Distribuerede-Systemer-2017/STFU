@@ -10,10 +10,8 @@
 | Use case 4: | Opdatere egne events: |   x    |     |
 | Use case 5: | Se liste med events: |   x    |     |
 | Use case 6: | Se deltagerliste på valgte events: |   x    |     |
-| Use case 7: | Se liste med alle brugere: |       |     |
-| Use case 8: | Slette egne events: |   x    |     |
-| Use case 9: | Slette valgfrit event: |       |     |
-| Use case 10: | Log ud: |   x    |     |
+| Use case 7: | Slette egne events: |   x    |     |
+| Use case 8: | Log ud: |   x    |     |
 
 ## Use cases med beskrivelser
 
@@ -37,19 +35,7 @@
 		4. Hvis der er tale om en almindelig bruger, vil systemet frembring et brugerView
 	- **Supplerende oplysninger:** Unikt brugernavn og password
 
-- **Use case 3 - Slet en specifik bruger:** 
-	- **Beskrivelse:** Admin skal kunne slette en specifik bruger. (Gerne med “Er Du Sikker?” Window alert)
-	- **Forudsætninger:** 
-	- **Uddybende beskrivelse:** 
-		1. Administrator logger ind 
-		2. Administrator vælger “Se brugere”
-		3. Administrator trykker “rediger” på den pågældende bruger, som admin ønsker slettet
-		4. Administrator trykker på slet bruger  
-		5. Administrator møder en window-alert, hvor han bekræfter handlingen
-		6. Administrator føres tilbage til oversigten over brugere 
-	- **Supplerende oplysninger:**
-
-- **Use case 4 - Oprette events:**
+- **Use case 3 - Oprette events:**
 	- **Beskrivelse:** Brugeren skal kunne oprette egne events.
 	- **Forudsætninger:** 
 	- **Uddybende beskrivelse:**
@@ -60,7 +46,7 @@
 		3. Det skal være muligt at vælge at have et maksimum på antal tilmeldte.
 		4. Prisen skal kun være oplysende, og skal kunne betales via eksempelvis mobilepay. 
 
-- **Use case 5 - Opdatere egne events:**
+- **Use case 4 - Opdatere egne events:**
 	- **Beskrivelse:** Brugeren skal kunne opdatere sine egne events 
 	- **Forudsætninger:** 
 	- **Uddybende beskrivelse:**
@@ -71,7 +57,7 @@
 		3. Hvis oppdateringen ikke var vellykket skal bruker få informasjon om det
 		4. Gjesten blir ført tilbake til oversikten over events
 
-- **Use case 6 - Se liste med events:**
+- **Use case 5 - Se liste med events:**
 	- **Beskrivelse:** Aktøren har mulighed for, at se en liste over de mulige events.
 	- **Forudsætninger:** Man skal være logget ind.
 	- **Uddybende beskrivelse:**
@@ -81,7 +67,7 @@
 		1. I tilfælde af, at der er tale om en administrator, vil der forekomme yderligere funktioner.
 		2. Et event vil kun forekomme på denne liste, såfremt det er oprettet. 
 
-- **Use case 7 - Se deltagerliste på valgt event:**
+- **Use case 6 - Se deltagerliste på valgt event:**
 	- **Beskrivelse:** Brugeren skal kunne få en liste vist over alle deltagende på et valgt event. 
 	- **Forudsætninger:**
 	- **Uddybende beskrivelse:**
@@ -91,17 +77,8 @@
 		4. Brugeren får vist en liste, over alle deltagere på eventet.	
 	- **Supplerende oplysninger:**
 		1. Kræver et login som bruger / admin.
-
-- **Use case 8 - Se liste med alle brugere (admin):**
-	- **Beskrivelse:** En administrator skal kunne se en liste med alle brugere der er registreret i systemet.
-	- **Forudsætninger:** For at kunne se en liste med alle brugere, kræver det at man er logget ind i system som en bruger med forhøjet rettigheder (også kendt som en administrator eller administratorrettigheder) 
-	- **Uddybende beskrivelse:**
-		1. En bruger med administratorrettigheder logger ind 
-		2. Derefter vælges “se brugere” 
-		3. En liste med alle brugere vises. 
-	- **Supplerende oplysninger:**
 	
-- **Use case 9 - Slette egne events:**
+- **Use case 7 - Slette egne events:**
 	- **Forudsætninger:** Aktøren skal være logget ind
 	- **Kort beskrivelse:** En bruger skal have mulighed for at slette egne events. 
 	- **Uddybende beskrivelse:**
@@ -113,19 +90,7 @@
 	- **Supplerende oplysninger:**
 		1. For at slette et event, skal det være oprettet forinden. 
 
-- **Use case 10 - Slette valgfrit event:**
-	- **Beskrivelse:** Administratoren har mulighed for at slette hvilket som helst event, såfremt eventet ikke efterlever kravene
-	- **Forudsætninger:** Man skal være logget ind som administratoren
-	- **Uddybende beskrivelse:**
-		1. Systemet viser administratorView
-		2. Administratoren vælger listen over alle events
-		3. Systemet viser listen over alle events
-		4. Administratoren vælger den ønskede event, der skal slettet
-		5. Systemet fremprovokerer en meddelelse om, at det ønskede event er slettet.	
-	- **Supplerende oplysninger:**
-		1. Det er kun muligt, at slette events, der findes på listen over alle events.
-
-- **Use Case 11 - Log ud**
+- **Use Case 8 - Log ud**
 	- **Beskrivelse:** Brugeren skal kunne logge ud af systemet igen.
 	- **Forudsætninger:** Man skal være logget ind. 
 	- **Uddybende beskrivelse:**
@@ -133,6 +98,3 @@
 		2. Man får et vindue der fortæller at man er blevet logget ud
 		3. Herefter vises log-in skærmen igen
 	- **Supplerende oplysninger:**
-
-
-
