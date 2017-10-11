@@ -10,9 +10,9 @@
    - En bruger skal kunne slette egne events. 
    - En bruger skal kunne se en oversigt over alle events.
    - En bruger skal kunne se en deltagerliste på det valgte event.
-- S4: Serveren skal udstille et interface, som lister alle events i systemet. 
-- S5: Serveren skal udstille et interface, som gør det muligt at oprette et nyt event.
-- S6: Serveren skal udstille et interface, som gør det muligt at ændre et nyt event.
+   - En bruger skal kunne se en liste over alle events. 
+   - En bruger skal kunne tilmelde sig et valgfrit event.
+   - En bruger skal kunne se en liste over de events, som brugeren deltager i. 
 
 ### Klient:
 - K1: Klienten skal kunne oprette en bruger.
@@ -21,3 +21,5 @@
 - K4: Klienten skal kunne opdatere events for den bruger, som er logget ind. 
 - K5: Klienten skal kunne hente en oversigt over alle events.
 - K6: Klienten skal kunne hente en deltagerliste på alle events. 
+- K7: Klienten skal kunne tilmelde sig et event. 
+- K8: Klienten skal kunne hente en oversigt over alle events, som brugeren deltager i. 
