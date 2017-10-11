@@ -61,11 +61,10 @@
 	- **Beskrivelse:** Aktøren har mulighed for, at se en liste over de mulige events.
 	- **Forudsætninger:** Man skal være logget ind.
 	- **Uddybende beskrivelse:**
-		1. Systemet viser et administrator- eller brugerView
+		1. Systemet viser en brugerflade.
 		2. Aktøren har her mulighed for at se en liste over alle events.
 	- **Supplerende oplysninger:**
-		1. I tilfælde af, at der er tale om en administrator, vil der forekomme yderligere funktioner.
-		2. Et event vil kun forekomme på denne liste, såfremt det er oprettet. 
+		Et event vil kun forekomme på denne liste, såfremt det er oprettet. 
 
 - **Use case 6 - Se deltagerliste på valgt event:**
 	- **Beskrivelse:** Brugeren skal kunne få en liste vist over alle deltagende på et valgt event. 
