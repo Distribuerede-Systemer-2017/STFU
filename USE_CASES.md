@@ -20,6 +20,7 @@
 
 - **Use case 1 - Opret bruger:**
 	- **Beskrivelse:** Gæsten kan oprette en ny bruger med følgende oplysninger: fornavn, efternavn, e-mail, kodeord, køn og alder. 
+	- **Forudsætninger:** 
 	- **Uddybende beskrivelse:**
 		1. Applikationen starter op, og gæsten får vist en brugerflade, hvor der er mulighed for at logge ind, oprette en ny bruger eller se events.
 		2. Gæsten vælger at oprette en ny bruger og bliver ført videre til en ny brugerflade.
