@@ -2,19 +2,18 @@
 # Use Cases
 
 ## Use case diagram
-|             | Use case:     | Bruger | Admin only | Gæst | 
-|-------------|---------------|--------|------------|------|
-| Use case 1: | Opret bruger: |       |           |   x  |
-| Use case 2: | Login: |   x    |           |     |
-| Use case 3: | Slet en specifik bruger: |       |     x      |     |
-| Use case 4: | Oprette events: |   x    |           |     |
-| Use case 5: | Opdatere egne events: |   x    |          |     |
-| Use case 6: | Se liste med events: |   x    |           |     |
-| Use case 7: | Se deltagerliste på valgte events: |   x    |           |     |
-| Use case 8: | Se liste med alle brugere: |       |     x      |     |
-| Use case 9: | Slette egne events: |   x    |           |     |
-| Use case 10: | Slette valgfrit event: |       |     x      |     |
-| Use case 11: | Log ud: |   x    |           |     |
+|             | Use case:     | Bruger | Gæst | 
+|-------------|---------------|--------|------|
+| Use case 1: | Opret bruger: |        |   x  |
+| Use case 2: | Login: |   x    |     |
+| Use case 3: | Oprette events: |   x    |     |
+| Use case 4: | Opdatere egne events: |   x    |     |
+| Use case 5: | Se liste med events: |   x    |     |
+| Use case 6: | Se deltagerliste på valgte events: |   x    |     |
+| Use case 7: | Se liste med alle brugere: |       |     |
+| Use case 8: | Slette egne events: |   x    |     |
+| Use case 9: | Slette valgfrit event: |       |     |
+| Use case 10: | Log ud: |   x    |     |
 
 ## Use cases med beskrivelser
 
