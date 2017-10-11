@@ -17,13 +17,13 @@
 
 - **Use case 1 - Opret bruger:**
 	- **Beskrivelse:** Gæsten kan oprette en ny bruger med følgende oplysninger: fornavn, efternavn, e-mail, kodeord, køn og alder. 
-	- **Forudsætninger:** 
+	- **Forudsætninger:** -
 	- **Uddybende beskrivelse:**
 		1. Applikationen starter op, og gæsten får vist en brugerflade, hvor der er mulighed for at logge ind eller oprette en ny bruger.
 		2. Gæsten vælger at oprette en ny bruger og bliver ført videre til en ny brugerflade.
 		3. Gæsten indtaster de påkrævede informationer og bliver herefter oprettet i systemet.
-		4. Gæsten bliver ført tilbage til startsiden, og har nu mulighed for at logge ind. (Skal brugeren verificeres?) 
-	- **Supplerende oplysninger:**
+		4. Gæsten bliver ført tilbage til startsiden, og har nu mulighed for at logge ind. 
+	- **Supplerende oplysninger:** -
 
 - **Use case 2 - Login:**
 	- **Beskrivelse:** Brugeren skal kunne logge ind efter at have oprettet sig i systemet.
@@ -37,9 +37,9 @@
 
 - **Use case 3 - Oprette events:**
 	- **Beskrivelse:** Brugeren skal kunne oprette egne events.
-	- **Forudsætninger:** 
+	- **Forudsætninger:** Man skal være logget ind.
 	- **Uddybende beskrivelse:**
-		1. En bruger skal kunne oprette et event med navn, billede, pris og beskrivelse.
+		1. En bruger skal kunne oprette et event med navn, dato, billede, pris og beskrivelse.
 	- **Supplerende oplysninger:**
 		1. Når eventet er/er ikke oprettet skal ejeren få en be-/afkræftigelsesbesked på skærmen.
 		2. Andre brugere skal kunne tilmelde sig et arrangement.
@@ -48,7 +48,7 @@
 
 - **Use case 4 - Opdatere egne events:**
 	- **Beskrivelse:** Brugeren skal kunne opdatere sine egne events 
-	- **Forudsætninger:** 
+	- **Forudsætninger:** Man skal være logget ind.
 	- **Uddybende beskrivelse:**
 		1. Etter at en bruker er logget inn skal den kunne endre informasjonen på events den inloggede bruker tidligere har oprettet
 	- **Supplerende oplysninger:**
@@ -69,7 +69,7 @@
 
 - **Use case 6 - Se deltagerliste på valgt event:**
 	- **Beskrivelse:** Brugeren skal kunne få en liste vist over alle deltagende på et valgt event. 
-	- **Forudsætninger:**
+	- **Forudsætninger:** Man skal være logget ind.
 	- **Uddybende beskrivelse:**
 		1. En bruger logger ind (med eller uden administratorrettigheder)
 		2. Brugeren får et view af alle events (som feed?)
