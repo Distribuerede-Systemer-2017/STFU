@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfe2495-d1a3-4ef4-b22a-0a8398ae8d13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/ProjectManagement/CONTRIBUTING.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ER Diagram.PNG" afterPath="$PROJECT_DIR$/ProjectManagement/ER Diagram.PNG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/KRAVSPEC.md" afterPath="$PROJECT_DIR$/ProjectManagement/KRAVSPEC.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/ProjectManagement/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/STFU.pptx" afterPath="$PROJECT_DIR$/ProjectManagement/STFU.pptx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/USE_CASES.md" afterPath="$PROJECT_DIR$/ProjectManagement/USE_CASES.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Comment.java" afterPath="$PROJECT_DIR$/src/main/server/models/Comment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Event.java" afterPath="$PROJECT_DIR$/src/main/server/models/Event.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Post.java" afterPath="$PROJECT_DIR$/src/main/server/models/Post.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/main/server/models/Student.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ProjectManagement/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -188,6 +179,11 @@
             <path>
               <item name="STFU" type="b2602c69:ProjectViewProjectNode" />
               <item name="STFU" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="STFU" type="b2602c69:ProjectViewProjectNode" />
+              <item name="STFU" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,12 +350,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507790798770</updated>
-      <workItem from="1507790802539" duration="249000" />
+      <workItem from="1507790802539" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249000" />
+    <option name="totallyTimeSpent" value="349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="47" width="1400" height="853" extended-state="0" />
