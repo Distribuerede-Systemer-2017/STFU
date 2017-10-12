@@ -23,4 +23,5 @@ public class Comment {
     public void setCommentText(String commentText) {
         this.commentText = commentText;
     }
+
 }
