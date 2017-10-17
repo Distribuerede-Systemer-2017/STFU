@@ -8,6 +8,7 @@ import model.Student;
 
 public class StudentEndpoint {
 
+
     @POST
     @Produces("Application./json")
     public Response create(String data) throws Exception {
