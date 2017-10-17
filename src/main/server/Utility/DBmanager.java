@@ -1,5 +1,6 @@
 package main.server.Utility;
 
+import main.server.models.Event;
 import main.server.models.Student;
 
 import org.apache.ibatis.jdbc.ScriptRunner;
@@ -101,6 +102,22 @@ public class DBmanager {
 
         return connection;
     }
+//SKAL IKKE LIGGE HERINDE - RYK TIL EVENTCONTROLLER
+    public boolean addEvent(Event event) throws SQLException {
+        PreparedStatement addEventStatement =
+                connection.prepareStatement("INSERT INTO Events (idEvent, EventName, StudentId, Location, Price, Date, Description, Pictures) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
+
+        try {
+            addEventStatement.setInt(1, event.getIdEvent());
+            addEventStatement.setString(2, event.getEventName());
+            addEventStatement.setInt(3, event.getStudentId());
+            addEventStatement.setString(4, event.getLocation());
+            addEventStatement.setInt(5, event.getPrice());
+            addEventStatement.setTimestamp(6, event.getDate());
+            addEventStatement.setString(7, event.getDescription());
+            addEventStatement.setString(8, event.getPictures());
+
+            int rowsAffected = addEventStatement.executeUpdate();
   
 // SKAL IKKE LIGGE HERINDE RYK TIL STUDENT CONTROLLER
     //Adding a Student to the database. Receiving a Student object
@@ -123,8 +140,11 @@ public class DBmanager {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return false;
+    }
+
+
+        return true;
 
     }
 
@@ -134,5 +154,6 @@ public class DBmanager {
 
 
 }
+
 
 
