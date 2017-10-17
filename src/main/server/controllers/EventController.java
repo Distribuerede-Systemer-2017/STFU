@@ -43,9 +43,10 @@ public class EventController {
         return updateEvent;
     }
 
-    public boolean addEvent(Event event) throws SQLException {
-        DBmanager db = new DBmanager();
 
+public boolean addEvent (String data) throws SQLException {
+        DBmanager db = new DBmanager();
+        Event event = new Gson().fromJson(data.Event.class);
         boolean addEvent = db.addEvent(event);
         db.close();
         return addEvent;
