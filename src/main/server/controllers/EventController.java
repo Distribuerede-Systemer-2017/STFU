@@ -6,7 +6,8 @@ import java.util.ArrayList;
 public class EventController {
 
 
-
+/*
+    //Udkommenteret indtil det virker således at DBManager mv kan testes
     //Controller klasse for event. Laver kald til databasen.
     //API forbindes med database.
 
@@ -38,5 +39,5 @@ public class EventController {
         return updateEvent;
     }
 
-
+*/
 }
