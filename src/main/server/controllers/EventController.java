@@ -8,12 +8,11 @@ import java.util.ArrayList;
 public class EventController {
 
 
-
     //Controller klasse for event. Laver kald til databasen.
     //API forbindes med database.
 
     //Hedder vores database connector "DBmanager"?
-    public ArrayList<Event> getEvent(String idEvent, String data) throws Exception{
+    public ArrayList<Event> getEvent(String idEvent, String data) throws Exception {
         DBmanager db = new DBmanager();
         ArrayList<Event> events = db.getEvents();
         db.close();
@@ -21,9 +20,7 @@ public class EventController {
     }
 
 
-    
-
-    public Event getEvent(int id) throws Exception{
+    public Event getEvent(int id) throws Exception {
         DBmanager db = new DBmanager();
         Event event = db.getEvent(id);
         db.close();
@@ -31,7 +28,7 @@ public class EventController {
 
     }
 
-    public Event getAllEvents(int id) throws Exception{
+    public Event getAllEvents(int id) throws Exception {
         DBmanager db = new DBmanager();
         Event allEvents = db.getAllEvents(id);
         db.close();
@@ -40,7 +37,7 @@ public class EventController {
     }
 
     //Hvilke parametre skal updateEvent indeholde? Data?
-    public Boolean updateEvent (String idEvent, String data) throws Exception{
+    public Boolean updateEvent(String idEvent, String data) throws Exception {
         DBmanager db = new DBmanager();
         //Indsæt parametre
         boolean updateEvent = db.updateEvent(idEvent, data);
