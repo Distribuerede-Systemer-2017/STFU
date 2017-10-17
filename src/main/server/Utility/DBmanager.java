@@ -1,5 +1,7 @@
 package main.server.Utility;
 
+import main.server.models.Student;
+
 import org.apache.ibatis.jdbc.ScriptRunner;
 
 import java.io.FileInputStream;
@@ -9,6 +11,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
 
 public class DBmanager {
 
@@ -98,6 +101,38 @@ public class DBmanager {
 
         return connection;
     }
+  
+// SKAL IKKE LIGGE HERINDE RYK TIL STUDENT CONTROLLER
+    //Adding a Student to the database. Receiving a Student object
+    public boolean addStudent (Student student) throws Exception {
+
+        PreparedStatement addStudentStatement =
+                connection.prepareStatement("INSERT INTO Students (idStudent, FirstName, LastName, Password) VALUES (?, ?, ?, ?)");
+
+        try {
+            addStudentStatement.setInt(1, student.getIdStudent());
+            addStudentStatement.setString(2, student.getFirstName());
+            addStudentStatement.setString(3, student.getLastName());
+            addStudentStatement.setString(4, student.getPassword());
+
+            int rowsAffected = addStudentStatement.executeUpdate();
+            if (rowsAffected == 1) {
+                return true;
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return false;
+
+    }
+
+
+    }
+
+
+
 }
 
 
