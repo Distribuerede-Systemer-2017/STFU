@@ -8,19 +8,18 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 -- Schema mydb
 -- -----------------------------------------------------
 -- -----------------------------------------------------
--- Schema døk_social
+-- Schema stfu
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema døk_social
+-- Schema stfu
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `døk_social` DEFAULT CHARACTER SET utf8 ;
-USE `døk_social` ;
+USE `stfu` ;
 
 -- -----------------------------------------------------
--- Table `døk_social`.`event`
+-- Table `stfu`.`event`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `døk_social`.`event` (
+CREATE TABLE IF NOT EXISTS `stfu`.`event` (
   `idEvent` INT(11) NOT NULL,
   `EventName` VARCHAR(100) NOT NULL,
   `idStudent` INT(11) NOT NULL,
@@ -36,9 +35,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `døk_social`.`student`
+-- Table `stfu`.`students`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `døk_social`.`student` (
+CREATE TABLE IF NOT EXISTS `stfu`.`students` (
   `idStudent` INT(11) NOT NULL,
   `FirstName` VARCHAR(100) NOT NULL,
   `LastName` VARCHAR(100) NOT NULL,
@@ -50,9 +49,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `døk_social`.`post`
+-- Table `stfu`.`post`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `døk_social`.`post` (
+CREATE TABLE IF NOT EXISTS `stfu`.`post` (
   `idPost` INT(11) NOT NULL,
   `Student_idStudent` INT(11) NOT NULL,
   `Event_idEvent` INT(11) NOT NULL,
@@ -63,12 +62,12 @@ CREATE TABLE IF NOT EXISTS `døk_social`.`post` (
   INDEX `fk_Post_Event1_idx` (`Event_idEvent` ASC),
   CONSTRAINT `fk_Post_Event1`
     FOREIGN KEY (`Event_idEvent`)
-    REFERENCES `døk_social`.`event` (`idEvent`)
+    REFERENCES `stfu`.`event` (`idEvent`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Post_Student1`
     FOREIGN KEY (`Student_idStudent`)
-    REFERENCES `døk_social`.`student` (`idStudent`)
+    REFERENCES `stfu`.`student` (`idStudent`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
@@ -76,9 +75,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `døk_social`.`comment`
+-- Table `stfu`.`comment`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `døk_social`.`comment` (
+CREATE TABLE IF NOT EXISTS `stfu`.`comment` (
   `idComment` INT(11) NOT NULL,
   `post_idPost` INT(11) NOT NULL,
   `student_idStudent` INT(11) NOT NULL,
@@ -87,12 +86,12 @@ CREATE TABLE IF NOT EXISTS `døk_social`.`comment` (
   INDEX `fk_Comment_student1_idx` (`student_idStudent` ASC),
   CONSTRAINT `fk_Comment_post1`
     FOREIGN KEY (`post_idPost`)
-    REFERENCES `døk_social`.`post` (`idPost`)
+    REFERENCES `stfu`.`post` (`idPost`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Comment_student1`
     FOREIGN KEY (`student_idStudent`)
-    REFERENCES `døk_social`.`student` (`idStudent`)
+    REFERENCES `stfu`.`student` (`idStudent`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
@@ -100,9 +99,9 @@ DEFAULT CHARACTER SET = utf8;
 
 
 -- -----------------------------------------------------
--- Table `døk_social`.`student_has_event`
+-- Table `stfu`.`student_has_event`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `døk_social`.`student_has_event` (
+CREATE TABLE IF NOT EXISTS `stfu`.`student_has_event` (
   `Student_idStudent` INT(11) NOT NULL,
   `Event_idEvent` INT(11) NOT NULL,
   PRIMARY KEY (`Student_idStudent`, `Event_idEvent`),
@@ -110,12 +109,12 @@ CREATE TABLE IF NOT EXISTS `døk_social`.`student_has_event` (
   INDEX `fk_Student_has_Event_Student_idx` (`Student_idStudent` ASC),
   CONSTRAINT `fk_Student_has_Event_Event1`
     FOREIGN KEY (`Event_idEvent`)
-    REFERENCES `døk_social`.`event` (`idEvent`)
+    REFERENCES `stfu`.`event` (`idEvent`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
   CONSTRAINT `fk_Student_has_Event_Student`
     FOREIGN KEY (`Student_idStudent`)
-    REFERENCES `døk_social`.`student` (`idStudent`)
+    REFERENCES `stfu`.`student` (`idStudent`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
