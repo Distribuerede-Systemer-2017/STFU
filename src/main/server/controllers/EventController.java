@@ -1,6 +1,9 @@
 package main.server.controllers;
 
+import main.server.Utility.DBmanager;
+
 import java.awt.*;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class EventController {
@@ -38,5 +41,13 @@ public class EventController {
         return updateEvent;
     }
 
+public boolean addEvent (String data) throws SQLException {
+        DBmanager db = new DBmanager();
+        Event event = new Gson().fromJson(data.Event.class);
+        boolean addEvent = db.addEvent(event);
+        db.close();
+        return addEvent;
 
+
+}
 }
