@@ -1,20 +1,24 @@
+package main.server.models;
+
 import java.sql.Timestamp;
 
 public class Event {
 
-    private int idEvent, price;
+    private int idEvent, price, studentId;
     private String eventName, location, description, pictures;
     private Timestamp date;
 
-    public Event(int idEvent, int price, String eventName, String location, String description, String pictures, Timestamp date) {
+    public Event(int idEvent, int price, int studentId, String eventName, String location, String description, String pictures, Timestamp date) {
         this.idEvent = idEvent;
         this.price = price;
+        this.studentId = studentId;
         this.eventName = eventName;
         this.location = location;
         this.description = description;
         this.pictures = pictures;
         this.date = date;
     }
+
 
     public int getIdEvent() {
         return idEvent;
@@ -31,6 +35,10 @@ public class Event {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    public int getStudentId() { return studentId}
+
+    public void setStudentId() { return studentId}
 
     public String getEventName() {
         return eventName;
