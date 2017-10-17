@@ -1,6 +1,8 @@
 package main.server.Utility;
 
 import main.server.models.Event;
+import main.server.models.Student;
+
 import org.apache.ibatis.jdbc.ScriptRunner;
 
 import java.io.FileInputStream;
@@ -10,6 +12,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
 
 public class DBmanager {
 
@@ -99,7 +102,7 @@ public class DBmanager {
 
         return connection;
     }
-
+//SKAL IKKE LIGGE HERINDE - RYK TIL EVENTCONTROLLER
     public boolean addEvent(Event event) throws SQLException {
         PreparedStatement addEventStatement =
                 connection.prepareStatement("INSERT INTO Events (idEvent, EventName, StudentId, Location, Price, Date, Description, Pictures) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
@@ -115,6 +118,21 @@ public class DBmanager {
             addEventStatement.setString(8, event.getPictures());
 
             int rowsAffected = addEventStatement.executeUpdate();
+  
+// SKAL IKKE LIGGE HERINDE RYK TIL STUDENT CONTROLLER
+    //Adding a Student to the database. Receiving a Student object
+    public boolean addStudent (Student student) throws Exception {
+
+        PreparedStatement addStudentStatement =
+                connection.prepareStatement("INSERT INTO Students (idStudent, FirstName, LastName, Password) VALUES (?, ?, ?, ?)");
+
+        try {
+            addStudentStatement.setInt(1, student.getIdStudent());
+            addStudentStatement.setString(2, student.getFirstName());
+            addStudentStatement.setString(3, student.getLastName());
+            addStudentStatement.setString(4, student.getPassword());
+
+            int rowsAffected = addStudentStatement.executeUpdate();
             if (rowsAffected == 1) {
                 return true;
             }
@@ -124,6 +142,16 @@ public class DBmanager {
         }
         return false;
     }
+
+
+        return true;
+
+    }
+
+
+    }
+
+
 
 }
 
