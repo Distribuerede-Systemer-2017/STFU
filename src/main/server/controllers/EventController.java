@@ -13,7 +13,7 @@ public class EventController {
     //API forbindes med database.
 
     //Hedder vores database connector "DBmanager"?
-    public ArrayList<Event> getEvent() throws Exception{
+    public ArrayList<Event> getEvent(String idEvent, String data) throws Exception{
         DBmanager db = new DBmanager();
         ArrayList<Event> events = db.getEvents();
         db.close();
@@ -21,7 +21,7 @@ public class EventController {
     }
 
 
-    //Skal den hedde getEvent eller getEvents?
+    
 
     public Event getEvent(int id) throws Exception{
         DBmanager db = new DBmanager();
@@ -31,11 +31,19 @@ public class EventController {
 
     }
 
+    public Event getAllEvents(int id) throws Exception{
+        DBmanager db = new DBmanager();
+        Event allEvents = db.getAllEvents(id);
+        db.close();
+        return event;
+
+    }
+
     //Hvilke parametre skal updateEvent indeholde? Data?
-    public Boolean updateEvent (int id, String xxx, String xxx) throws Exception{
+    public Boolean updateEvent (String idEvent, String data) throws Exception{
         DBmanager db = new DBmanager();
         //Indsæt parametre
-        boolean updateEvent = db.updateEvent(id, xxx);
+        boolean updateEvent = db.updateEvent(idEvent, data);
         db.close();
         return updateEvent;
     }
