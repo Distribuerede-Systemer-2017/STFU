@@ -1,12 +1,14 @@
+package main.server.models;
+
 import java.sql.Timestamp;
 
 public class Event {
 
-    private int idEvent, price;
-    private String eventName, location, description, pictures;
+    private int price;
+    private String idEvent, eventName, location, description, pictures;
     private Timestamp date;
 
-    public Event(int idEvent, int price, String eventName, String location, String description, String pictures, Timestamp date) {
+    public Event(String idEvent, int price, String eventName, String location, String description, String pictures, Timestamp date) {
         this.idEvent = idEvent;
         this.price = price;
         this.eventName = eventName;
@@ -16,11 +18,11 @@ public class Event {
         this.date = date;
     }
 
-    public int getIdEvent() {
+    public String getIdEvent() {
         return idEvent;
     }
 
-    public void setIdEvent(int idEvent) {
+    public void setIdEvent(String idEvent) {
         this.idEvent = idEvent;
     }
 
