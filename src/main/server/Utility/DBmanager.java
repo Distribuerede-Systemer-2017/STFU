@@ -1,8 +1,7 @@
 package main.server.Utility;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import javax.xml.transform.Result;
+import java.sql.*;
 
 public class DBmanager {
 
@@ -19,5 +18,31 @@ public class DBmanager {
 
     public static Connection getConnection() {
         return connection;
+    }
+
+    public ArrayList getStudents() throws IllegalArgumentException {
+        ArrayList results ) new ArrayList();
+        ResultSet resultSet = null;
+
+        try {
+            PreparedStatement getStudents = connection.prepareStatement("SELECT * FROM Students WHERE Deleted != 1");
+            resultSet = getStudents.executeQuery();
+
+            while (resultSet.next()) {
+                try {
+
+                    Student students = new Student {
+                        resultSet.getInt("UserID")
+                    };
+
+                    results.add(students);
+                } catch (Exception e) {
+
+                }
+            }
+        } catch (SQLException sqlException) {
+            System.out.println(sqlException.getMessage());
+        }
+        return results;
     }
 }

@@ -11,6 +11,21 @@ public class StudentController {
 
     public StudentController() {
         this.gson = new Gson();
+
+    }
+
+    public ArrayList<Student> getStudents() {
+        DBmanager db = new DBmanager();
+        ArrayList<Student> students = db.getStudents();
+        db.close();
+        return students;
+    }
+
+    public Student getStudents(int id) {
+        DBmanager db = new DBmanager();
+        Student student = db.getStudents(id);
+        db.close();
+        return students;
     }
 
 }
