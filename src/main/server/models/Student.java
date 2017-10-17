@@ -1,13 +1,16 @@
+package main.server.models;
+
 public class Student {
 
     private int idStudent;
-    private String firstName, lastName, email;
+    private String firstName, lastName, email, password;
 
     public Student(int idStudent, String firstName, String lastName, String email) {
         this.idStudent = idStudent;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.password = password;
     }
 
     public int getIdStudent() {
@@ -41,4 +44,8 @@ public class Student {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getPassword() {return password; }
+
+    public void setPassword(String password) {this.password = password; }
 }
