@@ -1,6 +1,7 @@
 package main.server.endpoints;
 
-@Path("/events")
+//Udkommenteret indtil mere er skrevet herinde
+//@Path("/events")
 public class EventEndpoint {
 
 
