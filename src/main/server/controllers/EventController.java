@@ -37,6 +37,6 @@ public class EventController {
         db.close();
         return updateEvent;
     }
-    
+
 
 }
